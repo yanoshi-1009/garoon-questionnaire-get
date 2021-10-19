@@ -1,11 +1,6 @@
 (() => {
   "use strict";
 
-  // URLチェック
-  if (!/^https:\/\/.+\.cybozu\.com/.test(location.href)) {
-    window.alert("このサイトでは実行できません。");
-    return;
-  }
-
-  const hoge;
+  const customizeName = "jp.co.cybozu.garoon.questionnaire";
+  garoon.schedule.event.datastore.get(customizeName);
 })();

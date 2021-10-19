@@ -1,0 +1,1 @@
+javascript:(function()%7B(()%3D%3E%7B%22use%20strict%22%3Bgaroon.schedule.event.datastore.get(%22jp.co.cybozu.garoon.questionnaire%22)%7D)()%3B%7D)()
